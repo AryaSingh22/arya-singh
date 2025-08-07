@@ -52,16 +52,27 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
-				}
+				// Custom metallic color palette
+				chrome: 'hsl(var(--chrome))',
+				platinum: 'hsl(var(--platinum))',
+				gunmetal: 'hsl(var(--gunmetal))',
+				'steel-blue': 'hsl(var(--steel-blue))',
+				'neon-cyan': 'hsl(var(--neon-cyan))',
+				'neon-purple': 'hsl(var(--neon-purple))'
+			},
+			backgroundImage: {
+				'gradient-metallic': 'var(--gradient-metallic)',
+				'gradient-gunmetal': 'var(--gradient-gunmetal)',
+				'gradient-chrome': 'var(--gradient-chrome)',
+				'gradient-glow': 'var(--gradient-glow)'
+			},
+			boxShadow: {
+				'metallic': 'var(--shadow-metallic)',
+				'glow': 'var(--shadow-glow)',
+				'neon': 'var(--shadow-neon)'
+			},
+			fontFamily: {
+				'sans': ['Inter', 'system-ui', 'sans-serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
