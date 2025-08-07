@@ -6,22 +6,22 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: Github,
-      href: 'https://github.com',
+      href: 'https://github.com/AryaSingh22',
       label: 'GitHub'
     },
     {
       icon: Linkedin,
-      href: 'https://linkedin.com',
+      href: 'https://www.linkedin.com/in/arya-singh-322757257/',
       label: 'LinkedIn'
     },
     {
       icon: Twitter,
-      href: 'https://twitter.com',
+      href: 'https://x.com/ARYA_SINGH_BAIS',
       label: 'Twitter'
     },
     {
       icon: Mail,
-      href: 'mailto:alex.thompson@example.com',
+      href: 'mailto:singharya2209@gmail.com',
       label: 'Email'
     }
   ];
@@ -47,7 +47,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="text-3xl font-bold gradient-text mb-4">
-              Alex Thompson
+              Arya Singh
             </div>
             <p className="text-foreground/80 leading-relaxed mb-6">
               Full-Stack Developer & Blockchain Engineer crafting premium digital experiences 
@@ -92,11 +92,11 @@ const Footer = () => {
             <div className="space-y-3">
               <p className="text-foreground/80">
                 <span className="text-accent font-medium">Email:</span><br />
-                alex.thompson@example.com
+                singharya2209@gmail.com
               </p>
               <p className="text-foreground/80">
                 <span className="text-accent font-medium">Location:</span><br />
-                San Francisco, CA
+                Bhubaneswar, India
               </p>
               <p className="text-foreground/80">
                 <span className="text-accent font-medium">Availability:</span><br />
@@ -110,7 +110,7 @@ const Footer = () => {
         <div className="border-t border-border/50 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-foreground/60 text-sm">
-              © {currentYear} Alex Thompson. All rights reserved.
+              © {currentYear} Arya Singh. All rights reserved.
             </p>
             <p className="text-foreground/60 text-sm flex items-center gap-1">
               Made with <Heart className="w-4 h-4 text-red-400" /> using React & TypeScript
