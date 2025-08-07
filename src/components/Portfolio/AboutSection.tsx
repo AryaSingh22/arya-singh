@@ -2,10 +2,10 @@ import { useInView } from 'react-intersection-observer';
 import { Code, Database, Globe, Zap } from 'lucide-react';
 
 const skills = [
-  { name: 'Frontend Development', level: 95, icon: Globe },
-  { name: 'Backend Development', level: 90, icon: Database },
-  { name: 'Blockchain Development', level: 85, icon: Zap },
-  { name: 'System Architecture', level: 88, icon: Code },
+  { name: 'Smart Contract Development', level: 95, icon: Code },
+  { name: 'Frontend Development', level: 88, icon: Globe },
+  { name: 'DeFi Protocols', level: 90, icon: Zap },
+  { name: 'Gas Optimization', level: 92, icon: Database },
 ];
 
 const AboutSection = () => {
@@ -29,22 +29,21 @@ const AboutSection = () => {
             {/* Bio */}
             <div className={`${inView ? 'animate-slide-up' : 'opacity-0'}`}>
               <h3 className="text-2xl font-semibold text-accent mb-6">
-                Passionate Developer & Innovator
+                Blockchain Developer & Smart Contract Expert
               </h3>
               <p className="text-foreground/80 text-lg leading-relaxed mb-6">
-                With over 6 years of experience in full-stack development, I specialize in 
-                creating scalable web applications and blockchain solutions. My journey began 
-                with traditional web development and evolved into the exciting world of Web3 
-                and decentralized applications.
+                Currently pursuing B.Tech in Computer Science and Engineering at IIIT Bhubaneswar (2022-2026), 
+                I specialize in EVM-compatible smart contracts, dApps, and DeFi protocols. My expertise spans 
+                Solidity development, ERC-4337 wallet implementation, and secure blockchain system architecture.
               </p>
               <p className="text-foreground/80 text-lg leading-relaxed mb-8">
-                I believe in writing clean, maintainable code and staying at the forefront 
-                of technology trends. When I'm not coding, you'll find me contributing to 
-                open-source projects or exploring the latest developments in AI and blockchain.
+                I focus on building gas-optimized, scalable solutions including DAOs, flashloan bots, and 
+                account abstraction wallets. My development approach emphasizes security, efficiency, and 
+                innovation in the rapidly evolving Web3 ecosystem.
               </p>
               
               <div className="flex flex-wrap gap-3">
-                {['React', 'Node.js', 'TypeScript', 'Solidity', 'Python', 'PostgreSQL'].map((tech) => (
+                {['Solidity', 'JavaScript', 'TypeScript', 'React.js', 'Python', 'Hardhat', 'Foundry'].map((tech) => (
                   <span 
                     key={tech}
                     className="px-4 py-2 glass rounded-full text-sm font-medium text-accent border border-accent/20"

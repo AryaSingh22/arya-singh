@@ -49,19 +49,19 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'alex.thompson@example.com',
-      href: 'mailto:alex.thompson@example.com'
+      value: 'singharya2209@gmail.com',
+      href: 'mailto:singharya2209@gmail.com'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567'
+      value: '+91 9580155086',
+      href: 'tel:+919580155086'
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Prayagraj, Uttar Pradesh, India',
       href: null
     }
   ];
@@ -70,13 +70,13 @@ const ContactSection = () => {
     {
       icon: Github,
       label: 'GitHub',
-      href: 'https://github.com',
+      href: 'https://github.com/AryaSingh22',
       color: 'hover:text-white'
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      href: 'https://linkedin.com',
+      href: 'https://linkedin.com/in/your-profile',
       color: 'hover:text-blue-400'
     },
     {
@@ -97,7 +97,7 @@ const ContactSection = () => {
             </h2>
             <div className="w-24 h-1 bg-gradient-metallic mx-auto rounded-full mb-6"></div>
             <p className="text-foreground/80 text-lg max-w-2xl mx-auto">
-              Ready to collaborate on your next project? Let's discuss how we can bring your ideas to life.
+              Interested in blockchain development or smart contract solutions? Let's discuss how we can build the future of Web3 together.
             </p>
           </div>
           

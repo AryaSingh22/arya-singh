@@ -5,48 +5,48 @@ import { Building, Calendar, MapPin } from 'lucide-react';
 const experiences = [
   {
     id: 1,
-    title: 'Senior Full-Stack Developer',
-    company: 'TechCorp Solutions',
-    location: 'San Francisco, CA',
-    period: '2022 - Present',
-    type: 'Full-time',
-    description: 'Lead development of enterprise-scale web applications and blockchain solutions. Architect and implement scalable microservices using Node.js, React, and AWS.',
+    title: 'Student - Computer Science & Engineering',
+    company: 'International Institute of Information Technology',
+    location: 'Bhubaneswar, India',
+    period: '2022 - 2026',
+    type: 'Education',
+    description: 'Pursuing B.Tech in Computer Science and Engineering with focus on blockchain technology, smart contract development, and Web3 applications.',
     achievements: [
-      'Led a team of 5 developers in building a DeFi platform processing $10M+ in transactions',
-      'Reduced application load time by 40% through optimization and caching strategies',
-      'Implemented CI/CD pipelines improving deployment frequency by 300%'
+      'Specialized in EVM-compatible smart contracts and DeFi protocol development',
+      'Built multiple blockchain projects including ERC-4337 wallets and flashloan bots',
+      'Focused on gas optimization and security best practices in smart contract development'
     ],
-    technologies: ['React', 'Node.js', 'TypeScript', 'Solidity', 'AWS', 'Docker']
+    technologies: ['Solidity', 'JavaScript', 'TypeScript', 'React.js', 'Hardhat', 'Foundry']
   },
   {
     id: 2,
     title: 'Blockchain Developer',
-    company: 'CryptoInnovate',
+    company: 'Independent Projects',
     location: 'Remote',
-    period: '2021 - 2022',
-    type: 'Contract',
-    description: 'Specialized in smart contract development and DApp creation. Built secure and efficient blockchain solutions for various DeFi protocols.',
+    period: '2023 - Present',
+    type: 'Personal',
+    description: 'Developing innovative blockchain solutions including account abstraction wallets, DeFi protocols, and automated trading systems.',
     achievements: [
-      'Developed 15+ smart contracts with zero security vulnerabilities',
-      'Created automated testing suite reducing bug detection time by 60%',
-      'Optimized gas usage in smart contracts by an average of 25%'
+      'Created ERC-4337 SmartWallet with advanced features like social recovery and Paymaster support',
+      'Developed flashloan arbitrage bot leveraging Aave protocol for profitable trading',
+      'Built gas-optimized decentralized escrow system with dispute resolution mechanisms'
     ],
-    technologies: ['Solidity', 'Web3.js', 'Hardhat', 'React', 'Node.js']
+    technologies: ['Solidity', 'Hardhat', 'Foundry', 'Ethers.js', 'OpenZeppelin', 'ERC-4337']
   },
   {
     id: 3,
-    title: 'Full-Stack Developer',
-    company: 'StartupLab',
-    location: 'New York, NY',
-    period: '2019 - 2021',
-    type: 'Full-time',
-    description: 'Built and maintained multiple web applications for startup clients. Focused on rapid prototyping and MVP development.',
+    title: 'Smart Contract Developer',
+    company: 'Open Source Contributions',
+    location: 'Remote',
+    period: '2023 - Present',
+    type: 'Contributing',
+    description: 'Contributing to open-source blockchain projects and developing DAO governance systems with advanced treasury management features.',
     achievements: [
-      'Successfully delivered 20+ projects with 98% client satisfaction rate',
-      'Built scalable e-commerce platform serving 100K+ users',
-      'Mentored junior developers and established coding best practices'
+      'Implemented DAO governance protocol with proposal creation and delegation features',
+      'Optimized smart contracts for gas efficiency using custom EVM logic',
+      'Created comprehensive testing suites using Slither and Tenderly for security analysis'
     ],
-    technologies: ['React', 'Node.js', 'Python', 'PostgreSQL', 'MongoDB']
+    technologies: ['Solidity', 'OpenZeppelin', 'Slither', 'Tenderly', 'Chainlink', 'IPFS']
   }
 ];
 

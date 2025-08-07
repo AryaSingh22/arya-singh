@@ -16,35 +16,39 @@ import {
 
 const techStacks = [
   {
-    category: 'Frontend',
-    technologies: [
-      { name: 'React', icon: SiReact, color: 'text-cyan-400' },
-      { name: 'Next.js', icon: SiNextdotjs, color: 'text-white' },
-      { name: 'TypeScript', icon: SiTypescript, color: 'text-blue-400' },
-      { name: 'Tailwind CSS', icon: SiTailwindcss, color: 'text-cyan-300' },
-    ]
-  },
-  {
-    category: 'Backend',
-    technologies: [
-      { name: 'Node.js', icon: SiNodedotjs, color: 'text-green-400' },
-      { name: 'Python', icon: SiPython, color: 'text-yellow-400' },
-      { name: 'PostgreSQL', icon: SiPostgresql, color: 'text-blue-300' },
-      { name: 'MongoDB', icon: SiMongodb, color: 'text-green-500' },
-    ]
-  },
-  {
-    category: 'Blockchain',
+    category: 'Languages',
     technologies: [
       { name: 'Solidity', icon: SiSolidity, color: 'text-gray-300' },
-      { name: 'Ethereum', icon: SiEthereum, color: 'text-purple-400' },
+      { name: 'JavaScript', icon: SiReact, color: 'text-yellow-400' },
+      { name: 'TypeScript', icon: SiTypescript, color: 'text-blue-400' },
+      { name: 'Python', icon: SiPython, color: 'text-yellow-400' },
     ]
   },
   {
-    category: 'DevOps',
+    category: 'Smart Contract Tools',
     technologies: [
-      { name: 'AWS', icon: SiAmazon, color: 'text-orange-400' },
-      { name: 'Docker', icon: SiDocker, color: 'text-blue-400' },
+      { name: 'Hardhat', icon: SiEthereum, color: 'text-yellow-300' },
+      { name: 'Foundry', icon: SiSolidity, color: 'text-gray-400' },
+      { name: 'OpenZeppelin', icon: SiEthereum, color: 'text-blue-400' },
+      { name: 'Slither', icon: SiSolidity, color: 'text-red-400' },
+    ]
+  },
+  {
+    category: 'Frontend/Web3',
+    technologies: [
+      { name: 'React.js', icon: SiReact, color: 'text-cyan-400' },
+      { name: 'Next.js', icon: SiNextdotjs, color: 'text-white' },
+      { name: 'Tailwind CSS', icon: SiTailwindcss, color: 'text-cyan-300' },
+      { name: 'Ethers.js', icon: SiEthereum, color: 'text-purple-400' },
+    ]
+  },
+  {
+    category: 'Platforms',
+    technologies: [
+      { name: 'Ethereum', icon: SiEthereum, color: 'text-purple-400' },
+      { name: 'Polygon', icon: SiEthereum, color: 'text-purple-300' },
+      { name: 'BSC', icon: SiEthereum, color: 'text-yellow-400' },
+      { name: 'IPFS', icon: SiNodedotjs, color: 'text-green-400' },
     ]
   }
 ];

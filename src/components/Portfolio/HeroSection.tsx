@@ -33,16 +33,16 @@ const HeroSection = () => {
         </div>
         
         <h1 className="text-6xl md:text-8xl font-bold mb-6 gradient-text animate-slide-up">
-          Alex Thompson
+          Arya Singh
         </h1>
         
         <h2 className="text-2xl md:text-3xl text-muted-foreground font-light mb-8 animate-slide-up [animation-delay:0.2s]">
-          Full-Stack Developer & Blockchain Engineer
+          Blockchain Developer
         </h2>
         
         <p className="text-lg text-foreground/80 max-w-2xl mx-auto mb-12 leading-relaxed animate-slide-up [animation-delay:0.4s]">
-          Crafting premium digital experiences with cutting-edge technologies. 
-          Specializing in Web3, React, and scalable enterprise solutions.
+          Specializing in EVM-compatible smart contracts, dApps, and DeFi protocols. 
+          Expert in Solidity, account abstraction wallets, and gas-optimized blockchain systems.
         </p>
         
         {/* CTA Buttons */}
@@ -67,7 +67,7 @@ const HeroSection = () => {
         {/* Social Links */}
         <div className="flex justify-center gap-6 mb-16 animate-slide-up [animation-delay:0.8s]">
           <a 
-            href="https://github.com" 
+            href="https://github.com/AryaSingh22" 
             target="_blank" 
             rel="noopener noreferrer"
             className="p-3 glass rounded-full hover:bg-accent/10 hover:scale-110 transition-all duration-300"
@@ -75,7 +75,7 @@ const HeroSection = () => {
             <Github className="w-6 h-6 text-accent" />
           </a>
           <a 
-            href="https://linkedin.com" 
+            href="https://linkedin.com/in/your-profile" 
             target="_blank" 
             rel="noopener noreferrer"
             className="p-3 glass rounded-full hover:bg-accent/10 hover:scale-110 transition-all duration-300"
@@ -83,7 +83,7 @@ const HeroSection = () => {
             <Linkedin className="w-6 h-6 text-accent" />
           </a>
           <a 
-            href="mailto:alex@example.com"
+            href="mailto:singharya2209@gmail.com"
             className="p-3 glass rounded-full hover:bg-accent/10 hover:scale-110 transition-all duration-300"
           >
             <Mail className="w-6 h-6 text-accent" />

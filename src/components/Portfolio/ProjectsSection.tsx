@@ -9,32 +9,32 @@ import project3 from '@/assets/project-3.jpg';
 const projects = [
   {
     id: 1,
-    title: 'DeFi Trading Platform',
-    description: 'A comprehensive decentralized finance platform with automated market making, yield farming, and portfolio management features.',
-    image: project2,
-    technologies: ['React', 'Solidity', 'Web3.js', 'Node.js', 'PostgreSQL'],
-    liveUrl: 'https://example.com',
-    githubUrl: 'https://github.com',
+    title: 'ERC-4337 SmartWallet',
+    description: 'An advanced account abstraction wallet with batched transactions, social recovery, Paymaster support, and ECDSA validation for enhanced user experience.',
+    image: project1,
+    technologies: ['Solidity', 'Hardhat', 'ERC-4337', 'Paymaster', 'React.js', 'Ethers.js'],
+    liveUrl: 'https://github.com/AryaSingh22',
+    githubUrl: 'https://github.com/AryaSingh22',
     featured: true
   },
   {
     id: 2,
-    title: 'Enterprise SaaS Dashboard',
-    description: 'Modern analytics dashboard with real-time data visualization, user management, and advanced reporting capabilities.',
-    image: project1,
-    technologies: ['Next.js', 'TypeScript', 'Prisma', 'tRPC', 'Tailwind CSS'],
-    liveUrl: 'https://example.com',
-    githubUrl: 'https://github.com',
+    title: 'Flashloan Arbitrage Bot',
+    description: 'A sophisticated bot utilizing Aave flashloans to profit from price differences between Uniswap and Sushiswap with real-time price feeds.',
+    image: project2,
+    technologies: ['Solidity', 'Aave Protocol', 'Uniswap SDK', 'Foundry', 'JavaScript'],
+    liveUrl: 'https://github.com/AryaSingh22',
+    githubUrl: 'https://github.com/AryaSingh22',
     featured: true
   },
   {
     id: 3,
-    title: 'Luxury E-commerce Platform',
-    description: 'High-end e-commerce solution with advanced product customization, AR preview, and seamless checkout experience.',
+    title: 'DAO Governance Protocol',
+    description: 'A comprehensive DAO system with proposal creation, delegation, and treasury management using OpenZeppelin Governor contracts.',
     image: project3,
-    technologies: ['React Native', 'Node.js', 'MongoDB', 'Stripe', 'AWS'],
-    liveUrl: 'https://example.com',
-    githubUrl: 'https://github.com',
+    technologies: ['Solidity', 'Hardhat', 'OpenZeppelin', 'Ethers.js', 'React.js'],
+    liveUrl: 'https://github.com/AryaSingh22',
+    githubUrl: 'https://github.com/AryaSingh22',
     featured: false
   }
 ];
