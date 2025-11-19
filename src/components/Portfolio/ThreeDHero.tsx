@@ -90,7 +90,7 @@ export default function ThreeDHero({ title, subtitle, description }: ThreeDHeroP
               {subtitle}
             </p>
             <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
-              <span className="gradient-text animate-glow">{title}</span>
+              <span className="gradient-text">{title}</span>
             </h1>
           </motion.div>
 
