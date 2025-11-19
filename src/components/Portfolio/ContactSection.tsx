@@ -82,7 +82,7 @@ const ContactSection = () => {
     {
       icon: Twitter,
       label: 'Twitter',
-      href: 'https://twitter.com',
+      href: 'https://x.com/ARYA_SINGH_BAIS',
       color: 'hover:text-cyan-400'
     }
   ];
