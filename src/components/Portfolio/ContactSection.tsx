@@ -76,7 +76,7 @@ const ContactSection = () => {
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      href: 'https://linkedin.com/in/arya-singh-2209',
+      href: 'https://www.linkedin.com/in/arya-singh-322757257/',
       color: 'hover:text-blue-400'
     },
     {
