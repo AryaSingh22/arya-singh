@@ -1,5 +1,5 @@
 import Navigation from '@/components/Portfolio/Navigation';
-import HeroSection from '@/components/Portfolio/HeroSection';
+import ThreeDHero from '@/components/Portfolio/ThreeDHero';
 import AboutSection from '@/components/Portfolio/AboutSection';
 import ProjectsSection from '@/components/Portfolio/ProjectsSection';
 import TechStackSection from '@/components/Portfolio/TechStackSection';
@@ -13,12 +13,16 @@ const Index = () => {
       <Navigation />
       <main>
         <section id="hero">
-          <HeroSection />
+          <ThreeDHero
+            title="Arya Singh"
+            subtitle="Blockchain & Smart Contract Developer"
+            description="Specializing in raw Solidity engineering, gas-optimized systems, and secure on-chain architectures. Experienced across DeFi, DEXs, DAOs, ERC-4337 wallets, escrow, flash loans, and subscription/payment systems."
+          />
         </section>
         <AboutSection />
+        <ExperienceSection />
         <ProjectsSection />
         <TechStackSection />
-        <ExperienceSection />
         <ContactSection />
       </main>
       <Footer />

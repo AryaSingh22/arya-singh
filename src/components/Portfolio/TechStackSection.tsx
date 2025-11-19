@@ -1,18 +1,19 @@
 import { useInView } from 'react-intersection-observer';
-import { 
-  SiReact, 
-  SiNodedotjs, 
-  SiTypescript, 
-  SiPython, 
-  SiPostgresql, 
-  SiMongodb, 
-  SiAmazon, 
+import {
+  SiReact,
+  SiNodedotjs,
+  SiTypescript,
+  SiPython,
+  SiPostgresql,
+  SiMongodb,
+  SiAmazon,
   SiDocker,
   SiSolidity,
   SiEthereum,
   SiNextdotjs,
   SiTailwindcss
 } from 'react-icons/si';
+import { CircularStats } from './StatsGraph';
 
 const techStacks = [
   {
@@ -53,6 +54,13 @@ const techStacks = [
   }
 ];
 
+const proficiencyStats = [
+  { name: 'Solidity', value: 95, color: 'hsl(210 20% 85%)' },
+  { name: 'React/Next.js', value: 90, color: 'hsl(180 100% 70%)' },
+  { name: 'Smart Contracts', value: 92, color: 'hsl(270 100% 75%)' },
+  { name: 'Web3/DeFi', value: 88, color: 'hsl(215 25% 35%)' },
+];
+
 const TechStackSection = () => {
   const { ref, inView } = useInView({
     triggerOnce: true,
@@ -72,10 +80,15 @@ const TechStackSection = () => {
               Technologies and tools I use to build modern, scalable applications
             </p>
           </div>
-          
+
+          {/* Proficiency Stats */}
+          <div className="mb-16">
+            <CircularStats stats={proficiencyStats} />
+          </div>
+
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {techStacks.map((stack, stackIndex) => (
-              <div 
+              <div
                 key={stack.category}
                 className={`${inView ? 'animate-slide-up' : 'opacity-0'}`}
                 style={{ animationDelay: `${stackIndex * 150}ms` }}
@@ -84,19 +97,19 @@ const TechStackSection = () => {
                   <h3 className="text-xl font-semibold text-accent mb-6 text-center">
                     {stack.category}
                   </h3>
-                  
+
                   <div className="space-y-4">
                     {stack.technologies.map((tech, techIndex) => (
-                      <div 
+                      <div
                         key={tech.name}
                         className="group flex items-center gap-4 p-3 glass rounded-lg hover:bg-accent/5 transition-all duration-300"
-                        style={{ 
-                          animationDelay: `${(stackIndex * stack.technologies.length + techIndex) * 100}ms` 
+                        style={{
+                          animationDelay: `${(stackIndex * stack.technologies.length + techIndex) * 100}ms`
                         }}
                       >
                         <div className="relative">
-                          <tech.icon 
-                            className={`w-8 h-8 ${tech.color} group-hover:scale-110 transition-transform duration-300`} 
+                          <tech.icon
+                            className={`w-8 h-8 ${tech.color} group-hover:scale-110 transition-transform duration-300`}
                           />
                           <div className="absolute inset-0 bg-current opacity-0 group-hover:opacity-20 rounded transition-opacity duration-300" />
                         </div>

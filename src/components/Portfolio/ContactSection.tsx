@@ -12,7 +12,7 @@ const ContactSection = () => {
     triggerOnce: true,
     threshold: 0.1,
   });
-  
+
   const { toast } = useToast();
   const [formData, setFormData] = useState({
     name: '',
@@ -32,15 +32,15 @@ const ContactSection = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+
     // Simulate form submission
     await new Promise(resolve => setTimeout(resolve, 2000));
-    
+
     toast({
       title: "Message sent successfully!",
       description: "Thank you for reaching out. I'll get back to you soon.",
     });
-    
+
     setFormData({ name: '', email: '', subject: '', message: '' });
     setIsSubmitting(false);
   };
@@ -61,7 +61,7 @@ const ContactSection = () => {
     {
       icon: MapPin,
       label: 'Location',
-      value: 'Prayagraj, Uttar Pradesh, India',
+      value: 'Bhubaneswar, India',
       href: null
     }
   ];
@@ -76,7 +76,7 @@ const ContactSection = () => {
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      href: 'https://linkedin.com/in/your-profile',
+      href: 'https://linkedin.com/in/arya-singh-2209',
       color: 'hover:text-blue-400'
     },
     {
@@ -100,13 +100,13 @@ const ContactSection = () => {
               Interested in blockchain development or smart contract solutions? Let's discuss how we can build the future of Web3 together.
             </p>
           </div>
-          
+
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             {/* Contact Form */}
             <div className={`${inView ? 'animate-slide-up' : 'opacity-0'}`}>
               <Card className="card-metallic p-8">
                 <h3 className="text-2xl font-semibold text-accent mb-6">Send a Message</h3>
-                
+
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid md:grid-cols-2 gap-4">
                     <div>
@@ -140,7 +140,7 @@ const ContactSection = () => {
                       />
                     </div>
                   </div>
-                  
+
                   <div>
                     <label htmlFor="subject" className="block text-sm font-medium text-foreground mb-2">
                       Subject
@@ -156,7 +156,7 @@ const ContactSection = () => {
                       required
                     />
                   </div>
-                  
+
                   <div>
                     <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
                       Message
@@ -172,9 +172,9 @@ const ContactSection = () => {
                       required
                     />
                   </div>
-                  
-                  <Button 
-                    type="submit" 
+
+                  <Button
+                    type="submit"
                     className="w-full btn-metallic hover:shadow-glow"
                     disabled={isSubmitting}
                   >
@@ -193,13 +193,13 @@ const ContactSection = () => {
                 </form>
               </Card>
             </div>
-            
+
             {/* Contact Info & Social */}
             <div className={`space-y-8 ${inView ? 'animate-slide-up [animation-delay:0.2s]' : 'opacity-0'}`}>
               {/* Contact Information */}
               <Card className="card-metallic p-8">
                 <h3 className="text-2xl font-semibold text-accent mb-6">Contact Information</h3>
-                
+
                 <div className="space-y-6">
                   {contactInfo.map((info) => (
                     <div key={info.label} className="flex items-center gap-4 group">
@@ -209,7 +209,7 @@ const ContactSection = () => {
                       <div>
                         <p className="text-sm text-muted-foreground">{info.label}</p>
                         {info.href ? (
-                          <a 
+                          <a
                             href={info.href}
                             className="text-foreground hover:text-accent transition-colors font-medium"
                           >
@@ -223,11 +223,11 @@ const ContactSection = () => {
                   ))}
                 </div>
               </Card>
-              
+
               {/* Social Links */}
               <Card className="card-metallic p-8">
                 <h3 className="text-2xl font-semibold text-accent mb-6">Follow Me</h3>
-                
+
                 <div className="flex gap-4">
                   {socialLinks.map((social) => (
                     <a
@@ -242,10 +242,10 @@ const ContactSection = () => {
                     </a>
                   ))}
                 </div>
-                
+
                 <div className="mt-6 p-4 glass rounded-lg">
                   <p className="text-foreground/80 text-sm leading-relaxed">
-                    Open to freelance opportunities and interesting projects. 
+                    Open to freelance opportunities and interesting projects.
                     Let's build something amazing together!
                   </p>
                 </div>

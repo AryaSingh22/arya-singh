@@ -24,27 +24,27 @@ const AboutSection = () => {
             </h2>
             <div className="w-24 h-1 bg-gradient-metallic mx-auto rounded-full"></div>
           </div>
-          
+
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             {/* Bio */}
             <div className={`${inView ? 'animate-slide-up' : 'opacity-0'}`}>
               <h3 className="text-2xl font-semibold text-accent mb-6">
-                Blockchain Developer & Smart Contract Expert
+                Blockchain & Smart Contract Developer
               </h3>
               <p className="text-foreground/80 text-lg leading-relaxed mb-6">
-                Currently pursuing B.Tech in Computer Science and Engineering at IIIT Bhubaneswar (2022-2026), 
-                I specialize in EVM-compatible smart contracts, dApps, and DeFi protocols. My expertise spans 
-                Solidity development, ERC-4337 wallet implementation, and secure blockchain system architecture.
+                Currently pursuing B.Tech in Computer Science at International Institute of Information
+                Technology (IIIT) Bhubaneswar (2022-2026, CGPA: 8.2/10). I specialize in raw Solidity
+                engineering, gas-optimized systems, and secure on-chain architectures.
               </p>
               <p className="text-foreground/80 text-lg leading-relaxed mb-8">
-                I focus on building gas-optimized, scalable solutions including DAOs, flashloan bots, and 
-                account abstraction wallets. My development approach emphasizes security, efficiency, and 
-                innovation in the rapidly evolving Web3 ecosystem.
+                My expertise spans DeFi protocols, DEXs, DAOs, ERC-4337 account abstraction wallets,
+                escrow systems, flash loans, and subscription/payment systems. Strong focus on security,
+                state-machine design, and building production-ready Web3 systems end-to-end.
               </p>
-              
+
               <div className="flex flex-wrap gap-3">
-                {['Solidity', 'JavaScript', 'TypeScript', 'React.js', 'Python', 'Hardhat', 'Foundry'].map((tech) => (
-                  <span 
+                {['Solidity', 'JavaScript', 'TypeScript', 'React.js', 'Hardhat', 'Ethers.js', 'Web3.js'].map((tech) => (
+                  <span
                     key={tech}
                     className="px-4 py-2 glass rounded-full text-sm font-medium text-accent border border-accent/20"
                   >
@@ -53,11 +53,11 @@ const AboutSection = () => {
                 ))}
               </div>
             </div>
-            
+
             {/* Skills */}
             <div className={`${inView ? 'animate-slide-up [animation-delay:0.2s]' : 'opacity-0'}`}>
               <h3 className="text-2xl font-semibold text-accent mb-8">Skills & Expertise</h3>
-              
+
               <div className="space-y-8">
                 {skills.map((skill, index) => (
                   <div key={skill.name} className="group">
@@ -70,11 +70,11 @@ const AboutSection = () => {
                       </div>
                       <span className="text-accent font-semibold">{skill.level}%</span>
                     </div>
-                    
+
                     <div className="progress-metallic h-3 relative">
-                      <div 
+                      <div
                         className="absolute inset-0 bg-gradient-to-r from-chrome to-steel-blue rounded-full shadow-glow transition-all duration-1000 ease-out"
-                        style={{ 
+                        style={{
                           width: inView ? `${skill.level}%` : '0%',
                           transitionDelay: `${index * 100}ms`
                         }}
